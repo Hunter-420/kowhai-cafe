@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://hunter-420.github.io/kowhai-cafe/sitemap.xml

@@ -16,11 +16,12 @@ export const App: React.FC = () => {
   // Synchronize tab with hash
   useEffect(() => {
     const syncFromHash = () => {
-      const hash = window.location.hash.replace('#', '').trim();
-      if (!hash) {
+      const rawHash = window.location.hash.replace('#', '').trim();
+      const tab = rawHash.split('?')[0];
+      if (!tab) {
         setCurrentTab('home');
       } else {
-        setCurrentTab(hash);
+        setCurrentTab(tab);
       }
     };
 
