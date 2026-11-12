@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <g transform="translate(50,50)">
+    <!-- 5 petals arranged radially -->
+    <path d="M 0 -10 C -15 -25, -20 -45, 0 -48 C 20 -45, 15 -25, 0 -10 Z" fill="#F6B81A" />
+    <path d="M 0 -10 C -15 -25, -20 -45, 0 -48 C 20 -45, 15 -25, 0 -10 Z" fill="#F6B81A" transform="rotate(72)" />
+    <path d="M 0 -10 C -15 -25, -20 -45, 0 -48 C 20 -45, 15 -25, 0 -10 Z" fill="#F6B81A" transform="rotate(144)" />
+    <path d="M 0 -10 C -15 -25, -20 -45, 0 -48 C 20 -45, 15 -25, 0 -10 Z" fill="#F6B81A" transform="rotate(216)" />
+    <path d="M 0 -10 C -15 -25, -20 -45, 0 -48 C 20 -45, 15 -25, 0 -10 Z" fill="#F6B81A" transform="rotate(288)" />
+    <!-- Center disk -->
+    <circle cx="0" cy="0" r="12" fill="#E39B0B" />
+  </g>
+</svg>
