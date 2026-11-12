@@ -59,7 +59,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, onNavigate }) => {
 
       {/* Main Navigation Header */}
       <header className="sticky top-0 z-40 bg-[#FFF8E8]/95 backdrop-blur-md border-b border-[#EBDFC4]">
-        <div className="max-w-6xl mx-auto px-4 sm:px-8 h-20 flex items-center justify-between gap-4">
+        <div className="max-w-6xl mx-auto px-4 sm:px-8 h-16 sm:h-18 flex items-center justify-between gap-4">
           {/* Brand Logo */}
           <button
             onClick={() => handleLinkClick('home')}
