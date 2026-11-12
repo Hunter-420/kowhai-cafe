@@ -28,17 +28,10 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-8 py-12 space-y-20">
+    <div className="max-w-6xl mx-auto px-4 sm:px-8 py-6 sm:py-8 space-y-12 sm:space-y-16">
       {/* Hero Section */}
-      <section className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        <div className="lg:col-span-7 space-y-6">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#F3E6C8] border border-[#EBDFC4]">
-            <span className="size-2 rounded-full bg-[#E39B0B]"></span>
-            <span className="font-body text-xs font-bold text-[#7C6A58] uppercase tracking-wider">
-              About Kowhai Cafe
-            </span>
-          </div>
-
+      <section className="grid grid-cols-1 lg:grid-cols-12 gap-10 sm:gap-12 items-center">
+        <div className="lg:col-span-7 space-y-5">
           <h1 className="font-heading font-extrabold text-4xl sm:text-5xl text-[#2A1B12] leading-[1.1] text-balance">
             Rooted in Grey Lynn, brewed with intentional care
           </h1>

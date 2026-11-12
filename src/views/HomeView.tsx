@@ -39,18 +39,11 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
   const featuredItems = MENU_ITEMS.filter((item) => item.seasonal || item.id === 'flat-white' || item.id === 'feijoa-almond-loaf').slice(0, 3);
 
   return (
-    <div className="space-y-24 pb-20">
+    <div className="space-y-12 sm:space-y-14 pb-12 sm:pb-14">
       {/* Hero Section */}
-      <section className="relative px-4 sm:px-8 pt-12 lg:pt-20">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          <div className="lg:col-span-7 space-y-6">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#F3E6C8] border border-[#EBDFC4]">
-              <span className="size-2 rounded-full bg-[#E39B0B]"></span>
-              <span className="font-body text-xs font-bold text-[#7C6A58] uppercase tracking-wider">
-                Grey Lynn Neighbourhood Artisan Cafe
-              </span>
-            </div>
-
+      <section className="relative px-4 sm:px-8 pt-6 sm:pt-8">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 sm:gap-12 items-center">
+          <div className="lg:col-span-7 space-y-5">
             <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-[#2A1B12] leading-[1.08] tracking-tight text-balance">
               Honest morning food, roasted properly in Grey Lynn
             </h1>

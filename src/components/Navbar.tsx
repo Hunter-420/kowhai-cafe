@@ -37,12 +37,11 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, onNavigate }) => {
             </span>
             <span className="hidden md:flex items-center gap-1.5 font-medium tabular-nums">
               <Clock className="size-3.5 text-[#F6B81A]" aria-hidden="true" />
-              Mon-Fri 7:00-15:00 · Sat 7:30-15:30 · Sun 8:00-15:00
+              Mon-Fri 7:00-15:00 | Sat 7:30-15:30 | Sun 8:00-15:00
             </span>
           </div>
           <div className="flex items-center gap-4">
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-[#3D291D] text-[#F6B81A] font-semibold text-[11px] tracking-wide uppercase">
-              <span className="size-1.5 rounded-full bg-[#4F6B3A] animate-pulse"></span>
+            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full bg-[#3D291D] text-[#F6B81A] font-semibold text-[11px] tracking-wide uppercase">
               Open Today
             </span>
             <a
@@ -83,7 +82,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, onNavigate }) => {
                 Kowhai
               </span>
               <span className="block font-body text-xs font-semibold text-[#7C6A58] uppercase tracking-wider">
-                Cafe · Grey Lynn
+                Cafe, Grey Lynn
               </span>
             </div>
           </button>
